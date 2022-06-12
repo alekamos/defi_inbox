@@ -16,7 +16,7 @@ beforeEach(()=> {
     car = new Car();
 });
 
-describe('Car suite test showcase', () => {
+describe('Dummy test for example', () => {
     it('can park?', () => {
         assert.equal(car.park(),'stopped');
     });
